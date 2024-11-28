@@ -649,5 +649,34 @@ CLASS ZCL_ZOV2_DPC_EXT IMPLEMENTATION.
         is_data = ls_deep_entity
       CHANGING
         cr_data = er_deep_entity.
+
+*  {
+*    "OrdemId": 5,
+*    "DataCriacao": "\/Date(0)\/",
+*    "CriadoPor": "DEVELOPER",
+*    "ClienteId": 1,
+*    "TotalItens": "10.00",
+*    "TotalFrete": "2.50",
+*    "TotalOrdem": "12.00",
+*    "Status": "N",
+*    "toOvitem": [
+*        {
+*            "ItemId": 1,
+*            "Material": "301",
+*            "Descricao": "Teclado",
+*            "Quantidade": 1,
+*            "PrecoUni": "2.00",
+*            "PrecoTot": "2.00"
+*        },
+*        {
+*            "ItemId": 2,
+*            "Material": "301",
+*            "Descricao": "Mouse",
+*            "Quantidade": 2,
+*            "PrecoUni": "1.00",
+*            "PrecoTot": "2.00"
+*        }
+*    ]
+*}
   ENDMETHOD.
 ENDCLASS.
